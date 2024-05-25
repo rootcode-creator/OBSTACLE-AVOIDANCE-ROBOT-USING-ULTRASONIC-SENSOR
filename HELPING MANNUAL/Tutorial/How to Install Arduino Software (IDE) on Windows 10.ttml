@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.319" end="00:00:04.190" style="s2">hello guys in this video I mean to show</p>
+<p begin="00:00:02.490" end="00:00:06.990" style="s2">you how you can download and install</p>
+<p begin="00:00:04.190" end="00:00:09.599" style="s2">Arduino IDE on your Windows 10 operating</p>
+<p begin="00:00:06.990" end="00:00:12.360" style="s2">system so let&#39;s get started first of all</p>
+<p begin="00:00:09.599" end="00:00:18.090" style="s2">open your favorite browser and search</p>
+<p begin="00:00:12.360" end="00:00:21.600" style="s2">for Arduino and the first result which</p>
+<p begin="00:00:18.090" end="00:00:25.650" style="s2">will appear here will be the Arduino</p>
+<p begin="00:00:21.600" end="00:00:30.179" style="s2">website so this is the Arduino website</p>
+<p begin="00:00:25.650" end="00:00:34.739" style="s2">which is Arduino dot C C right so just</p>
+<p begin="00:00:30.179" end="00:00:37.680" style="s2">enter into this website and the first</p>
+<p begin="00:00:34.739" end="00:00:42.000" style="s2">thing which will we will do here is to</p>
+<p begin="00:00:37.680" end="00:00:44.520" style="s2">download the Arduino executable right so</p>
+<p begin="00:00:42.000" end="00:00:47.520" style="s2">in this website we need to go to the</p>
+<p begin="00:00:44.520" end="00:00:50.879" style="s2">downloads section so just click download</p>
+<p begin="00:00:47.520" end="00:00:54.629" style="s2">and I can see here there is a Windows</p>
+<p begin="00:00:50.879" end="00:00:57.059" style="s2">installer here so I can just you know</p>
+<p begin="00:00:54.629" end="00:00:59.250" style="s2">install this using this windows</p>
+<p begin="00:00:57.059" end="00:01:01.649" style="s2">installer so just click Windows</p>
+<p begin="00:00:59.250" end="00:01:05.159" style="s2">installer which is going to download the</p>
+<p begin="00:01:01.649" end="00:01:07.229" style="s2">executable file for the windows and in</p>
+<p begin="00:01:05.159" end="00:01:10.049" style="s2">here if you want to contribute because</p>
+<p begin="00:01:07.229" end="00:01:12.600" style="s2">it&#39;s open-source project which will</p>
+<p begin="00:01:10.049" end="00:01:16.950" style="s2">depend upon your contribution so if you</p>
+<p begin="00:01:12.600" end="00:01:19.830" style="s2">want you can just give some of the</p>
+<p begin="00:01:16.950" end="00:01:23.280" style="s2">dollars which you want or otherwise you</p>
+<p begin="00:01:19.830" end="00:01:26.189" style="s2">can just say just it download and you</p>
+<p begin="00:01:23.280" end="00:01:28.470" style="s2">don&#39;t want to contribute right and this</p>
+<p begin="00:01:26.189" end="00:01:32.670" style="s2">is going to you know download this</p>
+<p begin="00:01:28.470" end="00:01:35.850" style="s2">Arduino Windows dot exe file so just</p>
+<p begin="00:01:32.670" end="00:01:38.759" style="s2">wait for a download to complete it&#39;s</p>
+<p begin="00:01:35.850" end="00:01:39.630" style="s2">going to take around a few seconds to a</p>
+<p begin="00:01:38.759" end="00:01:41.850" style="s2">minute</p>
+<p begin="00:01:39.630" end="00:01:44.159" style="s2">to download it and after it will</p>
+<p begin="00:01:41.850" end="00:01:48.799" style="s2">download we are going to continue to</p>
+<p begin="00:01:44.159" end="00:01:51.930" style="s2">install this arduino ide</p>
+<p begin="00:01:48.799" end="00:01:56.630" style="s2">now once the executable is downloaded</p>
+<p begin="00:01:51.930" end="00:01:59.369" style="s2">you just need to run it and once it runs</p>
+<p begin="00:01:56.630" end="00:02:03.479" style="s2">you just need to follow the instructions</p>
+<p begin="00:01:59.369" end="00:02:06.450" style="s2">so let me minimize my browser and i will</p>
+<p begin="00:02:03.479" end="00:02:11.340" style="s2">wait for the installation to start first</p>
+<p begin="00:02:06.450" end="00:02:13.000" style="s2">of all and this installation has been</p>
+<p begin="00:02:11.340" end="00:02:17.280" style="s2">started so first run</p>
+<p begin="00:02:13.000" end="00:02:20.830" style="s2">the control so just click yes here and</p>
+<p begin="00:02:17.280" end="00:02:24.820" style="s2">in here just read the document and</p>
+<p begin="00:02:20.830" end="00:02:26.410" style="s2">agreement and then just say I agree we</p>
+<p begin="00:02:24.820" end="00:02:27.160" style="s2">want to install all the things just</p>
+<p begin="00:02:26.410" end="00:02:29.470" style="s2">click Next</p>
+<p begin="00:02:27.160" end="00:02:32.140" style="s2">and this is the location where it will</p>
+<p begin="00:02:29.470" end="00:02:33.670" style="s2">be installed so just click install which</p>
+<p begin="00:02:32.140" end="00:02:38.200" style="s2">is going to start the installation</p>
+<p begin="00:02:33.670" end="00:02:42.130" style="s2">process of arduino ide now in between</p>
+<p begin="00:02:38.200" end="00:02:44.170" style="s2">you will say some permissions so if you</p>
+<p begin="00:02:42.130" end="00:02:47.440" style="s2">want to give the permission or not and</p>
+<p begin="00:02:44.170" end="00:02:51.610" style="s2">then you just need to press ok in that</p>
+<p begin="00:02:47.440" end="00:02:55.570" style="s2">situation so let&#39;s the let the process</p>
+<p begin="00:02:51.610" end="00:02:57.850" style="s2">run and we will go step by step right so</p>
+<p begin="00:02:55.570" end="00:03:02.170" style="s2">it&#39;s extracting all the things so just</p>
+<p begin="00:02:57.850" end="00:03:04.690" style="s2">wait for this to go to the 100% this</p>
+<p begin="00:03:02.170" end="00:03:09.040" style="s2">progress bar and then we will continue</p>
+<p begin="00:03:04.690" end="00:03:12.520" style="s2">ok so now it says would you like to</p>
+<p begin="00:03:09.040" end="00:03:14.590" style="s2">install this device software for Arduino</p>
+<p begin="00:03:12.520" end="00:03:21.670" style="s2">USB driver you just need to click</p>
+<p begin="00:03:14.590" end="00:03:24.459" style="s2">install and then continue and this time</p>
+<p begin="00:03:21.670" end="00:03:28.990" style="s2">it against asks and you just need to</p>
+<p begin="00:03:24.459" end="00:03:31.300" style="s2">click install once again and now you can</p>
+<p begin="00:03:28.990" end="00:03:33.250" style="s2">see the installation is complete you</p>
+<p begin="00:03:31.300" end="00:03:36.280" style="s2">will be able to see this message</p>
+<p begin="00:03:33.250" end="00:03:39.400" style="s2">completed and then you can close this</p>
+<p begin="00:03:36.280" end="00:03:42.160" style="s2">wizard and I can see on my desktop also</p>
+<p begin="00:03:39.400" end="00:03:45.160" style="s2">there is a arduino icon which I can</p>
+<p begin="00:03:42.160" end="00:03:49.150" style="s2">click and this is going to start the</p>
+<p begin="00:03:45.160" end="00:03:51.940" style="s2">arduino ide right so just double click</p>
+<p begin="00:03:49.150" end="00:03:55.110" style="s2">on this icon and this is going to start</p>
+<p begin="00:03:51.940" end="00:03:55.110" style="s2">this arduino ide</p>
+<p begin="00:03:56.880" end="00:04:07.240" style="s2">and in here you just need to give the</p>
+<p begin="00:04:02.920" end="00:04:17.500" style="s2">access to this software so just say</p>
+<p begin="00:04:07.240" end="00:04:22.660" style="s2">allow access and you can see the arduino</p>
+<p begin="00:04:17.500" end="00:04:26.400" style="s2">ide has been started now right now in</p>
+<p begin="00:04:22.660" end="00:04:30.880" style="s2">order to you know connect or flash your</p>
+<p begin="00:04:26.400" end="00:04:34.240" style="s2">arduino nem arduino you just need to go</p>
+<p begin="00:04:30.880" end="00:04:36.700" style="s2">to your folder explorer and then go to</p>
+<p begin="00:04:34.240" end="00:04:41.140" style="s2">your pc and right click on your pc and</p>
+<p begin="00:04:36.700" end="00:04:43.900" style="s2">then here click manage and in here</p>
+<p begin="00:04:41.140" end="00:04:48.340" style="s2">first of all you need to insert your</p>
+<p begin="00:04:43.900" end="00:04:51.360" style="s2">arduino hardware and using this hardware</p>
+<p begin="00:04:48.340" end="00:04:54.970" style="s2">you will be able to connect to the</p>
+<p begin="00:04:51.360" end="00:04:57.940" style="s2">arduino ide also so first insert your</p>
+<p begin="00:04:54.970" end="00:05:02.260" style="s2">hardware and this and in this computer</p>
+<p begin="00:04:57.940" end="00:05:05.919" style="s2">management click device manager and when</p>
+<p begin="00:05:02.260" end="00:05:09.370" style="s2">you have inserted your arduino hardware</p>
+<p begin="00:05:05.919" end="00:05:12.880" style="s2">correctly you will be able to see your</p>
+<p begin="00:05:09.370" end="00:05:15.490" style="s2">arduino here under you the ports right</p>
+<p begin="00:05:12.880" end="00:05:18.460" style="s2">now i haven&#39;t connected arduino ide so I</p>
+<p begin="00:05:15.490" end="00:05:21.729" style="s2">don&#39;t see any do we know but when you</p>
+<p begin="00:05:18.460" end="00:05:23.950" style="s2">connect your you know hardware correctly</p>
+<p begin="00:05:21.729" end="00:05:26.650" style="s2">then you will be able to see this</p>
+<p begin="00:05:23.950" end="00:05:30.640" style="s2">arduino here and then you will be able</p>
+<p begin="00:05:26.650" end="00:05:31.780" style="s2">to flash it using your arduino ide so i</p>
+<p begin="00:05:30.640" end="00:05:35.250" style="s2">hope you have enjoyed this video please</p>
+<p begin="00:05:31.780" end="00:05:35.250" style="s2">welcome and subscribe and bye</p>
+</div>
+</body>
+</tt>
