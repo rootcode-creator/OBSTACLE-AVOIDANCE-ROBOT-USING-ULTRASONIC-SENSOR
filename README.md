@@ -35,10 +35,14 @@ The original project idea and hardware inspiration were adapted from the Instruc
 
 ## ✨ Features
 
-- Detects obstacles using ultrasonic sensors on multiple directions.
-- Controls the robot motors to move forward, turn left, turn right, or stop.
-- Uses an Arduino microcontroller and servo-based sensor arrangement.
-- Provides a simple, beginner-friendly Arduino sketch for learning robotics and embedded systems.
+### Core Features
+
+| Feature | Status | Description |
+| --- | --- | --- |
+| Multi-direction obstacle detection | ✅ Current | Uses left, middle, and right ultrasonic sensors to measure distance around the robot. |
+| Autonomous navigation | ✅ Current | Decides when to move forward, turn left, turn right, or stop based on sensor readings. |
+| Motor control logic | ✅ Current | Drives the motors through Arduino pins to respond to detected obstacles. |
+| Beginner-friendly Arduino project | ✅ Current | Provides a simple sketch for learning robotics, sensor interfacing, and embedded control. |
 
 ## 🧰 Requirements
 
@@ -66,6 +70,20 @@ The original project idea and hardware inspiration were adapted from the Instruc
 5. Power the robot and test obstacle detection in a safe open area.
 
 > Note: The pin mapping in the code should be verified against your hardware wiring before uploading.
+
+### ⚙️ How It Works
+
+1. The Arduino initializes the ultrasonic sensors and motor pins.
+2. The robot measures distance values from the left, middle, and right sensors.
+3. If the path is clear, the robot moves forward.
+4. If an obstacle is detected, it turns in the safest available direction.
+5. The process repeats continuously to keep the robot moving safely.
+
+### Troubleshooting
+
+- If the sensors do not respond, verify the trigger and echo wiring and check the power supply.
+- If the motors do not move, confirm the motor driver connections and pin mapping in the code.
+- If the serial output is missing, ensure the baud rate is set correctly in the Arduino IDE.
 
 ## 📁 Project Structure
 
