@@ -1,18 +1,21 @@
-# Obstacle Avoidance Robot Using Ultrasonic Sensor
+<p align="center">
+  <img src="robot-dog.png" alt="Robot dog logo" width="110" />
+</p>
+
+# <p align="center">Obstacle avoidance robot using ultrasonic sensor</p>
 
 <p align="center"><i>Smart Arduino robot that detects obstacles and navigates safely using ultrasonic sensors.</i></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PROJECT-OBSTACLE%20AVOIDANCE%20ROBOT-E11D48?style=for-the-badge&logo=robot&logoColor=white&labelColor=7F1D1D" alt="Obstacle Avoidance Robot" />
-  <img src="https://img.shields.io/badge/BOARD-ARDUINO%20UNO%2FMEGA-14B8A6?style=for-the-badge&logo=arduino&logoColor=white&labelColor=0F766E" alt="Arduino Board" />
-  <img src="https://img.shields.io/badge/SENSOR-HC-SR04%20ULTRASONIC-8B5CF6?style=for-the-badge&logo=arduino&logoColor=white&labelColor=4C1D95" alt="Ultrasonic Sensor" />
-  <img src="https://img.shields.io/badge/TYPE-EMBEDDED%20SYSTEM-0EA5E9?style=for-the-badge&logo=microchip&logoColor=white&labelColor=1E3A8A" alt="Embedded System" />
+  <img src="https://img.shields.io/badge/PROJECT-OBSTACLE%20AVOIDANCE%20ROBOT-E11D48?style=for-the-badge&logo=robotframework&logoColor=white&labelColor=7F1D1D" alt="Obstacle Avoidance Robot" />
+  <img src="https://img.shields.io/badge/%F0%9F%94%A7-ARDUINO%20UNO%2FMEGA-14B8A6?style=for-the-badge&logoColor=white&labelColor=0F766E" alt="Arduino Board" />
+  <img src="https://img.shields.io/badge/TYPE-EMBEDDED%20SYSTEM-0EA5E9?style=for-the-badge&logo=electron&logoColor=white&labelColor=1E3A8A" alt="Embedded System" />
 </p>
 
 <p align="center">
-  <a href="#-project-intro"><img src="https://img.shields.io/badge/EXPLORE-PROJECT%20INTRO-6366F1?style=for-the-badge&logo=gitbook&logoColor=white&labelColor=4F46E5" alt="Project intro" /></a>
-  <a href="#-features"><img src="https://img.shields.io/badge/VIEW-FEATURES-22C55E?style=for-the-badge&logo=checkmarx&logoColor=white&labelColor=15803D" alt="Features" /></a>
-  <a href="#-how-to-setup-the-project"><img src="https://img.shields.io/badge/SETUP-HARDWARE%20%26%20CODE-A855F7?style=for-the-badge&logo=readme&logoColor=white&labelColor=7E22CE" alt="Setup" /></a>
+  <a href="#-project-intro"><img src="https://img.shields.io/badge/EXPLORE-PROJECT%20INTRO-6366F1?style=for-the-badge&logo=github&logoColor=white&labelColor=4F46E5" alt="Project intro" /></a>
+  <a href="#-features"><img src="https://img.shields.io/badge/VIEW-FEATURES-22C55E?style=for-the-badge&logo=star&logoColor=white&labelColor=15803D" alt="Features" /></a>
+  <a href="#-how-to-setup-the-project"><img src="https://img.shields.io/badge/SETUP-HARDWARE%20%26%20CODE-A855F7?style=for-the-badge&logo=wrench&logoColor=white&labelColor=7E22CE" alt="Setup" /></a>
 </p>
 
 ## Table of Contents
@@ -63,13 +66,32 @@ The original project idea and hardware inspiration were adapted from the Instruc
 
 ## ⚙️ How to Setup the Project
 
-1. Open the Arduino sketch in `ORGINAL PROJECT/AUDUINO CODE/obstacle_avoidance_robot.ino`.
-2. Make sure the required libraries are installed in the Arduino IDE.
-3. Connect the ultrasonic sensors, motors, servo, and power supply according to the pin definitions in the source code.
-4. Upload the sketch to your Arduino board.
-5. Power the robot and test obstacle detection in a safe open area.
+```mermaid
+flowchart TD
+    A[Power Supply] --> B[Arduino Board]
+    C[Left Ultrasonic Sensor] --> B
+    D[Middle Ultrasonic Sensor] --> B
+    E[Right Ultrasonic Sensor] --> B
+    F[Servo Motor] --> B
+    G[Motor Driver] --> H[Left Motor]
+    G --> I[Right Motor]
+    B --> G
+```
 
-> Note: The pin mapping in the code should be verified against your hardware wiring before uploading.
+```mermaid
+flowchart TD
+    S[Start] --> R[Read distances from left, middle, and right sensors]
+    R --> C{Obstacle detected?}
+    C -->|No| F[Move forward]
+    C -->|Yes| D{Which side is clear?}
+    D -->|Left clear| L[Turn left]
+    D -->|Right clear| R2[Turn right]
+    D -->|Both blocked| H[Stop]
+    F --> R
+    L --> R
+    R2 --> R
+    H --> R
+```
 
 ### ⚙️ How It Works
 
